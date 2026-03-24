@@ -21,7 +21,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
     - name: Set up Python #安装python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5  # 从 v4 改为 v5
       with:
         python-version: '3.10'
     - name: Install requirements #安装轮子
